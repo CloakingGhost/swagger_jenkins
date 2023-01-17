@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link id="contextPathHolder" th:data-contextPath="${#httpServletRequest.getContextPath()}"/>
+</head>
+<body>
+<h1 class="m-auto">Good Day!</h1>
+
+<a th:href="@{/}">Move!</a>
+
+</body>
+</html>
